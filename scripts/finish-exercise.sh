@@ -23,11 +23,16 @@ echo "Updating progress..."
 python scripts/update_progress.py
 
 echo
-echo "Adding changed files..."
+echo "Adding files..."
 git add .
 
+if git diff --cached --quiet; then
+    echo "No changes to commit."
+    exit 0
+fi
+
 echo
-echo "Files staged:"
+echo "Staged changes:"
 git status --short
 
 echo
@@ -47,4 +52,4 @@ echo "Pushing to origin..."
 git push origin
 
 echo
-echo "Done."
+echo "Exercise recorded successfully."
