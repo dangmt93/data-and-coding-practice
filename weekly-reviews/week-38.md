@@ -5,7 +5,7 @@
 | Domain   |                                     Completed |
 | -------- | --------------------------------------------: |
 | Power BI | <progress value="0" max="100"></progress> 0/3 |
-| SQL      | <progress value="0" max="100"></progress> 0/9 |
+| SQL      | <progress value="33" max="100"></progress> 3/9 |
 | Coding   | <progress value="0" max="100"></progress> 0/3 |
 
 ## Power BI
@@ -16,9 +16,9 @@
 
 ## SQL
 
-- [ ]   1. [Exercise Name](url)
-- [ ]   2. [Exercise Name](url)
-- [ ]   3. [Exercise Name](url)
+- [x]   1. [LeetCode 1148. Article Views I](https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50)
+- [x]   2. [LeetCode 1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/description/?envType=study-plan-v2&envId=top-sql-50)
+- [x]   3. [LeetCode 1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=top-sql-50)
 - [ ]   4. [Exercise Name](url)
 - [ ]   5. [Exercise Name](url)
 - [ ]   6. [Exercise Name](url)
